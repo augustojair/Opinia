@@ -1,0 +1,931 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Opinia &mdash; Opinia 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Opinia 1.0 documentation" href="index.html" />
+    <link rel="prev" title="Bienvenido a la Documentacion de Opinia!" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="index.html" title="Bienvenido a la Documentacion de Opinia!"
+             accesskey="P">anterior</a> |</li>
+        <li><a href="index.html">Opinia 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="opinia">
+<h1>Opinia<a class="headerlink" href="#opinia" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="que-es-opinia">
+<h2>¿Qué es Opinia?<a class="headerlink" href="#que-es-opinia" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Opinia es un software dedicado hacia las empresas interesadas en conocer la experiencia de sus clientes, a traves de un sistema de opiniones que luego se reunen en una base de datos general.</p>
+</div>
+<div class="section" id="implementacion">
+<h2>Implementación<a class="headerlink" href="#implementacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Para poder implementar Opinia en una compañia, solo es necesaria la descarga del software desde su repositorio online(detallado más abajo) y la disposición de un terminal para su puesta en práctica donde el cliente contrará con la posibilidad de comunicarse con la empresa.
+Además se debe tener en cuenta que Opinia debe ser configurado como lo indica el programa en los datos de acceso FTP y SMTP. Para ello sólo se debe modificar el Código Fuente en Python, los datos que se encuentren entre asteriscos.</p>
+</div>
+<div class="section" id="limitaciones">
+<h2>Limitaciones<a class="headerlink" href="#limitaciones" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Las limitaciones que presenta el programa son la imposibilidad de agregar caracteres de utf-8 en los campos de Ingreso de Texto. Esto quiere decir que símbolos que no esten presentes en el inglés, como por ejemplo la ñ, la aperturas de signos (¿ o ¡), los tildes, etc.</p>
+</div>
+<div class="section" id="requisitos">
+<h2>Requisitos<a class="headerlink" href="#requisitos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Los requisitos mínimos exigidos para la implementación de Opinia, son los siguientes:</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<ul class="last simple">
+<li>La disposición de Python 2.7 (o mayor) en el sistema operativo que fuere. Disponible Aquí: <a class="reference external" href="http://www.python.org/download/">http://www.python.org/download/</a></li>
+<li>La disposición de Pilas-engine (librería para Python). Disponible Aquí: <a class="reference external" href="http://www.pilas-engine.com.ar/">http://www.pilas-engine.com.ar/</a></li>
+<li>La disposición de una conexión a Internet (cualquier velocidad fuere).</li>
+</ul>
+</div>
+</div>
+<div class="section" id="modo-de-uso">
+<h2>Modo de Uso<a class="headerlink" href="#modo-de-uso" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El modo de uso es extremadamente simple, luego de configurar los datos requeridos sólo se debe tener en cuenta los siguientes pasos a seguir:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Se debe hacer click sobre el campo &#8220;Nombre&#8221; y luego de que este se muestre como seleccionado, se debe borrar el contenido presente en él y posteriormente Escribir el Nombre del Cliente que opina.</li>
+<li>Se debe hacer click sobre el campo &#8220;Email&#8221; y luego de que este se muestre como seleccionado, se debe borrar el contenido presente en él y posteriormente Escribir el Email del Cliente que opina.</li>
+<li>Se debe hacer click sobre el Asunto deseado por el sujeto en calidad de opinador, y luego de recibir el aviso del programa que confirma la opción seleccionada, se puede proseguir al siguiente paso.</li>
+<li>En el caso de la calificación, simplemente se debe deslizar el campo y soltarlo en la calificación deseada.</li>
+<li>Se debe hacer click sobre el campo &#8220;Comentarios&#8221; y luego de que este se muestre como seleccionado, se debe borrar el contenido presente en él y posteriormente Escribir los Comentarios Adicionales del Cliente que opina.</li>
+<li>Luego de estos sencillos pasos, se debe hacer click en el botón &#8220;Enviar&#8221; y se debe aguardar a recibir la respuesta satifactoria del software, esto puede tardar algún tiempo, dependiendo de la conexión a Internet y del estado de los servidores que reciben la Información.</li>
+</ul>
+</div></blockquote>
+<div class="admonition warning">
+<p class="first admonition-title">Advertencia</p>
+<p class="last">Se debe tener en cuenta que no se pueden usar caracteres no presentes en la lengua inglesa como lo aclara la sección &#8220;Limitaciones&#8221;.</p>
+</div>
+</div>
+<div class="section" id="acerca-de">
+<h2>Acerca De<a class="headerlink" href="#acerca-de" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El software ha sido elaborado por dos alumnos del ITS Villada de 4º año C, de la especialidad Informática. Año 2012.
+Para más información puede contactarse con Augusto Jair <a class="reference external" href="mailto:augustojair_96&#37;&#52;&#48;hotmail&#46;com">augustojair_96<span>&#64;</span>hotmail<span>&#46;</span>com</a> o con Pedro Ludueña <a class="reference external" href="mailto:pedro_ignacio_luduena&#37;&#52;&#48;hotmail&#46;com">pedro_ignacio_luduena<span>&#64;</span>hotmail<span>&#46;</span>com</a>
+&lt;br&gt;El programa se encuentra con licencia GPL-3 de Creative Commons.&lt;br&gt;
+&lt;a rel=&#8221;license&#8221; href=&#8221;<a class="reference external" href="http://creativecommons.org/licenses/by-sa/3.0/deed.es">http://creativecommons.org/licenses/by-sa/3.0/deed.es</a>&#8220;&gt;&lt;img alt=&#8221;Licencia Creative Commons&#8221; style=&#8221;border-width:0&#8221; src=&#8221;http://i.creativecommons.org/l/by-sa/3.0/88x31.png&#8221; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span xmlns:dct=&#8221;http://purl.org/dc/terms/&#8221; property=&#8221;dct:title&#8221;&gt;Opinia&lt;/span&gt; por &lt;a xmlns:cc=&#8221;http://creativecommons.org/ns#&#8221; href=&#8221;https://github.com/augustojair/Opinia.git&#8221; property=&#8221;cc:attributionName&#8221; rel=&#8221;cc:attributionURL&#8221;&gt;Augusto Jair &amp; Pedro Luduena&lt;/a&gt; se encuentra bajo una &lt;a rel=&#8221;license&#8221; href=&#8221;http://creativecommons.org/licenses/by-sa/3.0/deed.es&#8221;&gt;Licencia Creative Commons Atribución-CompartirIgual 3.0 Unported&lt;/a&gt;.&lt;br /&gt;Basada en una obra en &lt;a xmlns:dct=&#8221;http://purl.org/dc/terms/&#8221; href=&#8221;https://github.com/augustojair/Opinia.git&#8221; rel=&#8221;dct:source&#8221;&gt;https://github.com/augustojair/Opinia.git&lt;/a&gt;.</p>
+</div>
+<div class="section" id="algunas-imagenes">
+<h2>Algunas Imágenes<a class="headerlink" href="#algunas-imagenes" title="Enlazar permanentemente con este título">¶</a></h2>
+<img alt="_images/Opinia.png" src="_images/Opinia.png" />
+<p>Este ejemplo es el modelo que utiliza a la compañia básica del proyecto, el &#8220;Camping Las Vertientes&#8221;.</p>
+</div>
+<div class="section" id="descarga">
+<h2>Descarga<a class="headerlink" href="#descarga" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La descarga de Opinia, se puede dar desde su repositorio en GitHub, ingresando el siguiente comando en la terminal de linux:</p>
+</div>
+<div class="section" id="codigo-python">
+<h2>Código Python<a class="headerlink" href="#codigo-python" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="opinia-py">
+<h3>Opinia.py<a class="headerlink" href="#opinia-py" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Se debe editar el archivo de configuración presente en &#8221;.Data/conf.ini&#8221;</p>
+</div>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#!/usr/bin/env python</span>
+<span class="c"># -*- coding: utf-8 -*-</span>
+
+<span class="sd">&quot;&quot;&quot;Importamos los modulos&quot;&quot;&quot;</span>
+<span class="kn">import</span> <span class="nn">pilas</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">Multilinea</span>
+<span class="kn">import</span> <span class="nn">ConfigParser</span>
+<span class="kn">import</span> <span class="nn">urllib</span>
+
+<span class="sd">&quot;&quot;&quot;Creamos y Configuramos todas las funciones&quot;&quot;&quot;</span>
+
+<span class="k">def</span> <span class="nf">cuando_hacen_click</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Esta funcion es el evento que actuara cuando se haga click en el boton &quot;Enviar&quot; &quot;&quot;&quot;</span>
+
+
+    <span class="sd">&quot;&quot;&quot;Capturamos y Guardamos los datos del Formulario&quot;&quot;&quot;</span>
+    <span class="n">pilas</span><span class="o">.</span><span class="n">avisar</span><span class="p">(</span><span class="s">&quot;Aguarde por favor, el formulario esta siendo enviado&quot;</span><span class="p">)</span>
+    <span class="n">cfgFile_w</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/datos.ini&quot;</span><span class="p">,</span><span class="s">&#39;w&#39;</span><span class="p">)</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s">&#39;datos&#39;</span><span class="p">,</span><span class="s">&#39;nombre&#39;</span><span class="p">,</span> <span class="n">txtNombre</span><span class="o">.</span><span class="n">texto</span><span class="p">)</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">cfgFile_w</span><span class="p">)</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s">&#39;datos&#39;</span><span class="p">,</span><span class="s">&#39;email&#39;</span><span class="p">,</span> <span class="n">txtEmail</span><span class="o">.</span><span class="n">texto</span><span class="p">)</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">cfgFile_w</span><span class="p">)</span>
+    <span class="n">cfgFile_w</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">guardarmensaje</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/mensaje.txt&quot;</span><span class="p">,</span><span class="s">&quot;w&quot;</span><span class="p">)</span>
+    <span class="n">guardarmensaje</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">txtMensaje</span><span class="o">.</span><span class="n">texto</span><span class="p">)</span>
+    <span class="n">guardarmensaje</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+    <span class="sd">&quot;&quot;&quot;Disparamos las funciones que enviara el email y otra que creara el archivo html, para luego ser subido por otra funcion&quot;&quot;&quot;</span>
+    <span class="n">enviar_email</span><span class="p">()</span>
+    <span class="n">bajar_html</span><span class="p">()</span>
+
+    <span class="sd">&quot;&quot;&quot;Ahora se limpiaran los campos y se reiniciara el formulario&quot;&quot;&quot;</span>
+    <span class="n">limpiar</span><span class="o">=</span><span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/datos.ini&quot;</span><span class="p">,</span><span class="s">&quot;w&quot;</span><span class="p">)</span>
+    <span class="n">limpiar</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;[datos]</span><span class="se">\n</span><span class="s">nombre = </span><span class="se">\n</span><span class="s">email = </span><span class="se">\n</span><span class="s">asunto = </span><span class="se">\n</span><span class="s">calificacion = &quot;</span><span class="p">)</span>
+    <span class="n">limpiar</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">limpiar2</span><span class="o">=</span><span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/mensaje.txt&quot;</span><span class="p">,</span><span class="s">&quot;w&quot;</span><span class="p">)</span>
+    <span class="n">limpiar2</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;&quot;</span><span class="p">)</span>
+    <span class="n">limpiar2</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">txtNombre</span><span class="o">.</span><span class="n">texto</span> <span class="o">=</span> <span class="s">&quot;Ingrese su Nombre&quot;</span>
+    <span class="n">txtEmail</span><span class="o">.</span><span class="n">texto</span> <span class="o">=</span> <span class="s">&quot;Ingrese su Email&quot;</span>
+    <span class="n">txtMensaje</span><span class="o">.</span><span class="n">texto</span> <span class="o">=</span> <span class="s">u&quot;Ingrese sus Comentarios&quot;</span>
+    <span class="n">cuando_cambia_Calificacion</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+
+    <span class="sd">&quot;&quot;&quot;Si todo ha sido procesado correctamente, notificamos la aceptacion&quot;&quot;&quot;</span>
+    <span class="n">pilas</span><span class="o">.</span><span class="n">avisar</span><span class="p">(</span><span class="s">u&#39;Se envió el formulario&#39;</span><span class="p">)</span>
+    <span class="k">print</span> <span class="s">u&#39;Se envió el formulario Correctamente&#39;</span>
+
+
+<span class="k">def</span> <span class="nf">cuando_selecciona_Asunto</span><span class="p">(</span><span class="n">opcion_seleccionada</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Esta funcion es el evento que actuara al seleccionar una alternativa del Campo de Opcion&quot;&quot;&quot;</span>
+    <span class="n">pilas</span><span class="o">.</span><span class="n">avisar</span><span class="p">(</span><span class="s">&quot;Ha seleccionado la opcion: &quot;</span> <span class="o">+</span> <span class="n">opcion_seleccionada</span><span class="p">)</span>
+    <span class="n">cfgFile_w</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/datos.ini&quot;</span><span class="p">,</span><span class="s">&#39;w&#39;</span><span class="p">)</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s">&#39;datos&#39;</span><span class="p">,</span><span class="s">&#39;asunto&#39;</span><span class="p">,</span> <span class="n">opcion_seleccionada</span><span class="p">)</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">cfgFile_w</span><span class="p">)</span>
+    <span class="n">cfgFile_w</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="k">return</span> <span class="bp">None</span>
+
+<span class="k">def</span> <span class="nf">cuando_cambia_Calificacion</span><span class="p">(</span><span class="n">valor</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Esta funcion es el evento que actua cuando se cambia el valor del Campo Deslizante &quot;&quot;&quot;</span>
+    <span class="n">lblCalificacionTotal</span><span class="o">.</span><span class="n">definir_texto</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">valor</span> <span class="o">*</span> <span class="mi">10</span><span class="p">))</span> <span class="o">+</span><span class="s">u&#39; puntos&#39;</span><span class="p">)</span>
+    <span class="n">cfgFile_w</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/datos.ini&quot;</span><span class="p">,</span><span class="s">&#39;w&#39;</span><span class="p">)</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s">&#39;datos&#39;</span><span class="p">,</span><span class="s">&#39;calificacion&#39;</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">valor</span> <span class="o">*</span> <span class="mi">10</span><span class="p">))</span> <span class="o">+</span><span class="s">u&#39; puntos&#39;</span><span class="p">)</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">cfgFile_w</span><span class="p">)</span>
+    <span class="n">cfgFile_w</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">bajar_html</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Esta funcion es la que descargara el archivo html del sitio web y luego se lo entregara a la fucion que lo preparara para luego subirlo&quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">reporthook</span><span class="p">(</span><span class="o">*</span><span class="n">a</span><span class="p">):</span> <span class="k">print</span> <span class="n">a</span>
+
+    <span class="n">C</span> <span class="o">=</span> <span class="n">ConfigParser</span><span class="o">.</span><span class="n">ConfigParser</span><span class="p">()</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s">&quot;.Data/conf.ini&quot;</span><span class="p">)</span>
+    <span class="n">web</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;SMTP&quot;</span><span class="p">,</span><span class="s">&quot;sitio-web&quot;</span><span class="p">)</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">web</span><span class="o">+</span><span class="s">&quot;Opiniones/Opiniones.html&quot;</span>
+    <span class="nb">file</span> <span class="o">=</span> <span class="s">&quot;.Data/Opiniones.html&quot;</span>
+    <span class="n">urllib</span><span class="o">.</span><span class="n">urlretrieve</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="nb">file</span><span class="p">,</span> <span class="n">reporthook</span><span class="p">)</span>
+    <span class="n">crear_html</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">crear_html</span><span class="p">():</span>
+
+    <span class="sd">&quot;&quot;&quot;Esta es la funcion que creara el informe HTML para luego ser subidos a la web&quot;&quot;&quot;</span>
+
+    <span class="kn">from</span> <span class="nn">ftplib</span> <span class="kn">import</span> <span class="n">FTP</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s">&quot;.Data/conf.ini&quot;</span><span class="p">)</span>
+    <span class="n">usuario</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;FTP&quot;</span><span class="p">,</span><span class="s">&quot;usuario&quot;</span><span class="p">)</span>
+    <span class="n">servidor</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;FTP&quot;</span><span class="p">,</span><span class="s">&quot;servidor&quot;</span><span class="p">)</span>
+    <span class="n">password</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;FTP&quot;</span><span class="p">,</span><span class="s">&quot;password&quot;</span><span class="p">)</span>
+    <span class="n">ftp</span> <span class="o">=</span> <span class="n">FTP</span><span class="p">(</span><span class="n">servidor</span><span class="p">);</span>
+    <span class="n">ftp</span><span class="o">.</span><span class="n">login</span><span class="p">(</span><span class="n">user</span><span class="o">=</span><span class="n">usuario</span><span class="p">,</span> <span class="n">passwd</span><span class="o">=</span><span class="n">password</span><span class="p">)</span>
+    <span class="n">ftp</span><span class="o">.</span><span class="n">cwd</span><span class="p">(</span><span class="s">&quot;/public_html/Opiniones/&quot;</span><span class="p">);</span>
+    <span class="n">ftp</span><span class="o">.</span><span class="n">retrbinary</span><span class="p">(</span><span class="s">&quot;RETR Opiniones.html&quot;</span><span class="p">,</span><span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/Opiniones.html&quot;</span><span class="p">,</span><span class="s">&quot;wb&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">write</span><span class="p">)</span>
+    <span class="n">ftp</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+
+    <span class="sd">&quot;&quot;&quot;Cargamos los datos para crear el archivo html&quot;&quot;&quot;</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s">&quot;.Data/datos.ini&quot;</span><span class="p">)</span>
+    <span class="n">nombre</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;datos&quot;</span><span class="p">,</span><span class="s">&#39;nombre&#39;</span><span class="p">)</span>
+    <span class="n">email</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;datos&quot;</span><span class="p">,</span><span class="s">&#39;email&#39;</span><span class="p">)</span>
+    <span class="n">asunto</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;datos&quot;</span><span class="p">,</span><span class="s">&#39;asunto&#39;</span><span class="p">)</span>
+    <span class="n">calificacion</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;datos&quot;</span><span class="p">,</span><span class="s">&#39;calificacion&#39;</span><span class="p">)</span>
+    <span class="n">mensaje</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/mensaje.txt&quot;</span><span class="p">,</span><span class="s">&#39;r&#39;</span><span class="p">)</span>
+    <span class="n">mensajea</span> <span class="o">=</span> <span class="n">mensaje</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="n">mensaje</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+    <span class="sd">&quot;&quot;&quot;Guardamos el archivo html&quot;&quot;&quot;</span>
+    <span class="n">creararchivo</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/Opiniones.html&quot;</span><span class="p">,</span><span class="s">&quot;a&quot;</span><span class="p">)</span>
+    <span class="n">creararchivo</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&lt;hr&gt;Nombre: &quot;</span><span class="o">+</span><span class="n">nombre</span><span class="o">+</span><span class="s">&quot;&lt;br&gt;Email: &lt;a href=mailto:&quot;</span><span class="o">+</span><span class="n">email</span><span class="o">+</span><span class="s">&quot;&gt;&quot;</span><span class="o">+</span><span class="n">email</span><span class="o">+</span><span class="s">&quot;&lt;/a&gt;&lt;br&gt;Asunto: &quot;</span><span class="o">+</span><span class="n">asunto</span><span class="o">+</span><span class="s">&quot;&lt;br&gt;Calificacion: &quot;</span><span class="o">+</span><span class="n">calificacion</span><span class="o">+</span><span class="s">&quot;&lt;br&gt;Comentarios: &quot;</span><span class="o">+</span><span class="n">mensajea</span><span class="p">))</span>
+    <span class="n">creararchivo</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+    <span class="sd">&quot;&quot;&quot;Disparamos la funcion que subira el archivo html&quot;&quot;&quot;</span>
+    <span class="n">subir_html</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">enviar_email</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Esta es la funcion que enviara el email notificando de una nueva opinion&quot;&quot;&quot;</span>
+
+    <span class="sd">&quot;&quot;&quot;Importamos la libreria necesaria y cargamos los datos para luego ser enviados&quot;&quot;&quot;</span>
+    <span class="kn">import</span> <span class="nn">smtplib</span>
+    <span class="n">C</span> <span class="o">=</span> <span class="n">ConfigParser</span><span class="o">.</span><span class="n">ConfigParser</span><span class="p">()</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s">&quot;.Data/datos.ini&quot;</span><span class="p">)</span>
+    <span class="n">nombre</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;datos&quot;</span><span class="p">,</span><span class="s">&quot;nombre&quot;</span><span class="p">)</span>
+    <span class="n">email</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;datos&quot;</span><span class="p">,</span><span class="s">&quot;email&quot;</span><span class="p">)</span>
+    <span class="n">asunto</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;datos&quot;</span><span class="p">,</span><span class="s">&quot;asunto&quot;</span><span class="p">)</span>
+    <span class="n">calificacion</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;datos&quot;</span><span class="p">,</span><span class="s">&quot;calificacion&quot;</span><span class="p">)</span>
+    <span class="n">cargarmensaje</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/mensaje.txt&quot;</span><span class="p">,</span><span class="s">&quot;r&quot;</span><span class="p">)</span>
+    <span class="n">mensaje</span><span class="o">=</span><span class="n">cargarmensaje</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="n">cargarmensaje</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s">&quot;.Data/conf.ini&quot;</span><span class="p">)</span>
+    <span class="n">web</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;SMTP&quot;</span><span class="p">,</span><span class="s">&quot;sitio-web&quot;</span><span class="p">)</span>
+    <span class="n">email2</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;SMTP&quot;</span><span class="p">,</span><span class="s">&quot;email&quot;</span><span class="p">)</span>
+    <span class="n">clave</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;SMTP&quot;</span><span class="p">,</span><span class="s">&quot;password&quot;</span><span class="p">)</span>
+
+    <span class="sd">&quot;&quot;&quot;Importamos los modulos adicionales necesarios&quot;&quot;&quot;</span>
+    <span class="kn">from</span> <span class="nn">email.mime.text</span> <span class="kn">import</span> <span class="n">MIMEText</span>
+
+    <span class="sd">&quot;&quot;&quot;Creamos el mensaje&quot;&quot;&quot;</span>
+    <span class="n">cuerpodelmensaje</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="s">&quot;Nombre: &quot;</span><span class="o">+</span><span class="n">nombre</span><span class="o">+</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="o">+</span><span class="s">&quot;E-mail: &quot;</span><span class="o">+</span><span class="n">email</span><span class="o">+</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="o">+</span><span class="s">&quot;Calificacion: &quot;</span><span class="o">+</span><span class="n">calificacion</span><span class="o">+</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="o">+</span><span class="s">&quot;Comentarios: &quot;</span><span class="o">+</span><span class="n">mensaje</span><span class="o">+</span><span class="s">&quot;</span><span class="se">\n\n</span><span class="s">Ver todos las Opiniones Recibidas</span><span class="se">\n</span><span class="s">&quot;</span><span class="o">+</span><span class="n">web</span><span class="o">+</span><span class="s">&quot;Opiniones/Opiniones.html&quot;</span><span class="p">)</span>
+    <span class="n">msg</span> <span class="o">=</span> <span class="n">MIMEText</span><span class="p">(</span><span class="n">cuerpodelmensaje</span><span class="p">)</span>
+
+    <span class="sd">&quot;&quot;&quot;Conectamos con el server&quot;&quot;&quot;</span>
+    <span class="n">msg</span><span class="p">[</span><span class="s">&#39;Subject&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#39;Usted ha recibido una nueva opinion - &#39;</span><span class="o">+</span><span class="n">asunto</span>
+    <span class="n">msg</span><span class="p">[</span><span class="s">&#39;From&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">email</span>
+    <span class="n">msg</span><span class="p">[</span><span class="s">&#39;To&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">email2</span>
+
+    <span class="sd">&quot;&quot;&quot;Autenticamos&quot;&quot;&quot;</span>
+    <span class="n">mailServer</span> <span class="o">=</span> <span class="n">smtplib</span><span class="o">.</span><span class="n">SMTP</span><span class="p">(</span><span class="s">&#39;smtp.gmail.com&#39;</span><span class="p">,</span><span class="mi">587</span><span class="p">)</span>
+    <span class="n">mailServer</span><span class="o">.</span><span class="n">ehlo</span><span class="p">()</span>
+    <span class="n">mailServer</span><span class="o">.</span><span class="n">starttls</span><span class="p">()</span>
+    <span class="n">mailServer</span><span class="o">.</span><span class="n">ehlo</span><span class="p">()</span>
+    <span class="n">mailServer</span><span class="o">.</span><span class="n">login</span><span class="p">(</span><span class="n">email2</span><span class="p">,</span> <span class="n">clave</span><span class="p">)</span>
+
+    <span class="sd">&quot;&quot;&quot;Enviamos&quot;&quot;&quot;</span>
+    <span class="n">mailServer</span><span class="o">.</span><span class="n">sendmail</span><span class="p">(</span><span class="n">email2</span><span class="p">,</span> <span class="n">email2</span><span class="p">,</span> <span class="n">msg</span><span class="o">.</span><span class="n">as_string</span><span class="p">())</span>
+
+    <span class="sd">&quot;&quot;&quot;Cerramos conexion&quot;&quot;&quot;</span>
+    <span class="n">mailServer</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">subir_html</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Esta es la funcion que subira el archivo html al servidor web&quot;&quot;&quot;</span>
+
+    <span class="sd">&quot;&quot;&quot;Importamos las librerias necesarias&quot;&quot;&quot;</span>
+    <span class="kn">import</span> <span class="nn">ftplib</span>
+    <span class="kn">import</span> <span class="nn">os</span>
+
+    <span class="n">C</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s">&quot;.Data/conf.ini&quot;</span><span class="p">)</span>
+    <span class="sd">&quot;&quot;&quot; Cargamos Datos FTP&quot;&quot;&quot;</span>
+    <span class="n">ftp_servidor</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;FTP&quot;</span><span class="p">,</span><span class="s">&quot;servidor&quot;</span><span class="p">)</span>
+    <span class="n">ftp_usuario</span>  <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;FTP&quot;</span><span class="p">,</span><span class="s">&quot;usuario&quot;</span><span class="p">)</span>
+    <span class="n">ftp_clave</span>    <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;FTP&quot;</span><span class="p">,</span><span class="s">&quot;password&quot;</span><span class="p">)</span>
+    <span class="n">ftp_raiz</span>     <span class="o">=</span> <span class="s">&#39;/public_html/Opiniones/&#39;</span>
+
+    <span class="sd">&quot;&quot;&quot; Cargamos Datos del fichero a subir&quot;&quot;&quot;</span>
+    <span class="n">fichero_origen</span> <span class="o">=</span> <span class="s">&#39;.Data/Opiniones.html&#39;</span>
+    <span class="n">fichero_destino</span> <span class="o">=</span> <span class="s">&#39;Opiniones.html&#39;</span>
+
+    <span class="sd">&quot;&quot;&quot;Conectamos con el servidor&quot;&quot;&quot;</span>
+    <span class="k">try</span><span class="p">:</span>
+            <span class="n">s</span> <span class="o">=</span> <span class="n">ftplib</span><span class="o">.</span><span class="n">FTP</span><span class="p">(</span><span class="n">ftp_servidor</span><span class="p">,</span> <span class="n">ftp_usuario</span><span class="p">,</span> <span class="n">ftp_clave</span><span class="p">)</span>
+            <span class="k">try</span><span class="p">:</span>
+                    <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">fichero_origen</span><span class="p">,</span> <span class="s">&#39;r&#39;</span><span class="p">)</span>
+                    <span class="n">s</span><span class="o">.</span><span class="n">cwd</span><span class="p">(</span><span class="n">ftp_raiz</span><span class="p">)</span>
+                    <span class="n">s</span><span class="o">.</span><span class="n">storbinary</span><span class="p">(</span><span class="s">&#39;STOR &#39;</span> <span class="o">+</span> <span class="n">fichero_destino</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
+                    <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+                    <span class="n">s</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+            <span class="k">except</span><span class="p">:</span>
+                    <span class="k">print</span> <span class="s">&quot;No se ha podido encontrar el fichero &quot;</span> <span class="o">+</span> <span class="n">fichero_origen</span>
+    <span class="k">except</span><span class="p">:</span>
+            <span class="k">print</span> <span class="s">&quot;No se ha podido conectar al servidor &quot;</span> <span class="o">+</span> <span class="n">ftp_servidor</span>
+
+
+<span class="sd">&quot;&quot;&quot;Creamos la estructura basica del software&quot;&quot;&quot;</span>
+
+<span class="sd">&quot;&quot;&quot;Inicializamos ConfigParser&quot;&quot;&quot;</span>
+<span class="n">C</span> <span class="o">=</span> <span class="n">ConfigParser</span><span class="o">.</span><span class="n">ConfigParser</span><span class="p">()</span>
+<span class="n">C</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s">&quot;.Data/datos.ini&quot;</span><span class="p">)</span>
+
+<span class="sd">&quot;&quot;&quot;Iniciamos Pilas&quot;&quot;&quot;</span>
+<span class="n">pilas</span><span class="o">.</span><span class="n">iniciar</span><span class="p">(</span><span class="n">titulo</span><span class="o">=</span><span class="s">u&quot;Opinión Acerca de Camping Las Vertientes - Opinia&quot;</span><span class="p">)</span>
+<span class="n">fondo</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">fondos</span><span class="o">.</span><span class="n">Fondo</span><span class="p">(</span><span class="s">&quot;.Data/Camping.jpg&quot;</span><span class="p">)</span>
+<span class="n">fondo</span><span class="o">.</span><span class="n">escala</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">posicionV</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">posicionL</span> <span class="o">=</span> <span class="o">-</span><span class="mi">170</span>
+<span class="n">posicionR</span> <span class="o">=</span> <span class="mi">30</span>
+<span class="n">lblEscala</span> <span class="o">=</span> <span class="mf">0.75</span>
+<span class="n">escapar</span> <span class="o">=</span> <span class="mi">500</span>
+<span class="n">Multilinea</span><span class="o">.</span><span class="n">inicializar</span><span class="p">()</span>
+
+<span class="sd">&quot;&quot;&quot; Creamos el Boton&quot;&quot;&quot;</span>
+<span class="n">boton</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">interfaz</span><span class="o">.</span><span class="n">Boton</span><span class="p">(</span><span class="s">&quot;Enviar&quot;</span><span class="p">)</span>
+<span class="n">boton</span><span class="o">.</span><span class="n">x</span><span class="p">,</span><span class="n">boton</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="mi">150</span><span class="p">,</span><span class="o">-</span><span class="mi">200</span>
+
+<span class="sd">&quot;&quot;&quot;Convocamos el evento que actuara cuando se haga click en el boton&quot;&quot;&quot;</span>
+<span class="n">boton</span><span class="o">.</span><span class="n">conectar</span><span class="p">(</span><span class="n">cuando_hacen_click</span><span class="p">)</span>
+
+<span class="sd">&quot;&quot;&quot;Creamos y Configuramos Las Entradas de Texto&quot;&quot;&quot;</span>
+<span class="n">lblNombre</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">actores</span><span class="o">.</span><span class="n">Texto</span><span class="p">(</span><span class="s">&quot;Nombre:&quot;</span><span class="p">)</span>
+<span class="n">lblNombre</span><span class="o">.</span><span class="n">escala</span> <span class="o">=</span> <span class="n">lblEscala</span>
+<span class="n">lblNombre</span><span class="o">.</span><span class="n">x</span><span class="p">,</span><span class="n">lblNombre</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">posicionL</span><span class="p">,(</span><span class="n">posicionV</span> <span class="o">*</span><span class="mi">20</span><span class="p">)</span>
+<span class="n">txtNombre</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">interfaz</span><span class="o">.</span><span class="n">IngresoDeTexto</span><span class="p">(</span><span class="n">limite_de_caracteres</span><span class="o">=</span><span class="mi">39</span><span class="p">,</span> <span class="n">texto_inicial</span><span class="o">=</span><span class="s">&quot;Ingrese Su Nombre&quot;</span><span class="p">)</span>
+<span class="n">txtNombre</span><span class="o">.</span><span class="n">x</span><span class="p">,</span><span class="n">txtNombre</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">posicionR</span><span class="p">,(</span><span class="n">posicionV</span> <span class="o">*</span><span class="mi">20</span><span class="p">)</span>
+<span class="n">lblEmail</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">actores</span><span class="o">.</span><span class="n">Texto</span><span class="p">(</span><span class="s">&quot;E-mail:&quot;</span><span class="p">)</span>
+<span class="n">lblEmail</span><span class="o">.</span><span class="n">escala</span> <span class="o">=</span> <span class="n">lblEscala</span>
+<span class="n">lblEmail</span><span class="o">.</span><span class="n">x</span><span class="p">,</span><span class="n">lblEmail</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">posicionL</span><span class="p">,(</span><span class="n">posicionV</span> <span class="o">*</span><span class="mi">15</span><span class="p">)</span>
+<span class="n">txtEmail</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">interfaz</span><span class="o">.</span><span class="n">IngresoDeTexto</span><span class="p">(</span><span class="n">limite_de_caracteres</span><span class="o">=</span><span class="mi">39</span><span class="p">,</span> <span class="n">texto_inicial</span><span class="o">=</span><span class="s">&quot;Ingrese Su Email&quot;</span><span class="p">)</span>
+<span class="n">txtEmail</span><span class="o">.</span><span class="n">x</span><span class="p">,</span><span class="n">txtEmail</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">posicionR</span><span class="p">,(</span><span class="n">posicionV</span> <span class="o">*</span><span class="mi">15</span><span class="p">)</span>
+
+<span class="sd">&quot;&quot;&quot;Creamos y Configuramos el Campo de Opcion&quot;&quot;&quot;</span>
+<span class="n">lblAsunto</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">actores</span><span class="o">.</span><span class="n">Texto</span><span class="p">(</span><span class="s">&quot;Asunto:&quot;</span><span class="p">)</span>
+<span class="n">lblAsunto</span><span class="o">.</span><span class="n">escala</span> <span class="o">=</span> <span class="n">lblEscala</span>
+<span class="n">lblAsunto</span><span class="o">.</span><span class="n">x</span><span class="p">,</span><span class="n">lblAsunto</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">posicionL</span><span class="p">,(</span><span class="n">posicionV</span> <span class="o">*</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">opcionesAsunto</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">interfaz</span><span class="o">.</span><span class="n">ListaSeleccion</span><span class="p">([</span><span class="s">&#39;Queja&#39;</span><span class="p">,</span> <span class="s">&#39;Sugerencia&#39;</span><span class="p">,</span><span class="s">&#39;Contacto General&#39;</span><span class="p">],</span> <span class="n">cuando_selecciona_Asunto</span><span class="p">)</span>
+<span class="n">opcionesAsunto</span><span class="o">.</span><span class="n">x</span><span class="p">,</span><span class="n">opcionesAsunto</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">posicionR</span><span class="o">-</span><span class="mi">100</span><span class="p">,(</span><span class="n">posicionV</span> <span class="o">*</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="sd">&quot;&quot;&quot;Creamos el campo Mensaje&quot;&quot;&quot;</span>
+<span class="n">lblMensaje</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">actores</span><span class="o">.</span><span class="n">Texto</span><span class="p">(</span><span class="s">&quot;Mensaje:&quot;</span><span class="p">)</span>
+<span class="n">lblMensaje</span><span class="o">.</span><span class="n">escala</span> <span class="o">=</span> <span class="n">lblEscala</span>
+<span class="n">lblMensaje</span><span class="o">.</span><span class="n">x</span><span class="p">,</span><span class="n">lblMensaje</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">posicionL</span><span class="p">,(</span><span class="n">posicionV</span> <span class="o">*-</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">txtMensaje</span> <span class="o">=</span> <span class="n">Multilinea</span><span class="o">.</span><span class="n">EntradaDeTexto</span><span class="p">(</span><span class="n">limite_de_caracteres</span><span class="o">=</span><span class="mi">235</span><span class="p">,</span> <span class="n">texto_inicial</span><span class="o">=</span><span class="s">u&quot;Ingrese sus Comentarios&quot;</span><span class="p">)</span>
+<span class="n">txtMensaje</span><span class="o">.</span><span class="n">x</span><span class="p">,</span><span class="n">txtMensaje</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">posicionR</span><span class="p">,(</span><span class="n">posicionV</span> <span class="o">*-</span><span class="mi">5</span><span class="p">)</span>
+
+<span class="sd">&quot;&quot;&quot;Creamos y configuramos el Campo deslizante&quot;&quot;&quot;</span>
+<span class="n">lblCalificacion</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">actores</span><span class="o">.</span><span class="n">Texto</span><span class="p">(</span><span class="s">u&quot;Calificación:&quot;</span><span class="p">)</span>
+<span class="n">lblCalificacion</span><span class="o">.</span><span class="n">escala</span> <span class="o">=</span> <span class="n">lblEscala</span>
+<span class="n">lblCalificacion</span><span class="o">.</span><span class="n">x</span><span class="p">,</span><span class="n">lblCalificacion</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">posicionL</span><span class="p">,(</span><span class="n">posicionV</span> <span class="o">*</span> <span class="mi">5</span><span class="p">)</span>
+<span class="n">lblCalificacionTotal</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">actores</span><span class="o">.</span><span class="n">Texto</span><span class="p">(</span><span class="s">u&#39;0 puntos&#39;</span><span class="p">)</span>
+<span class="n">lblCalificacionTotal</span><span class="o">.</span><span class="n">escala</span> <span class="o">=</span> <span class="n">lblEscala</span>
+<span class="n">lblCalificacionTotal</span><span class="o">.</span><span class="n">x</span><span class="p">,</span><span class="n">lblCalificacionTotal</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">posicionL</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">+</span> <span class="n">lblCalificacion</span><span class="o">.</span><span class="n">ancho</span><span class="p">,(</span><span class="n">posicionV</span> <span class="o">*</span> <span class="mi">5</span><span class="p">)</span>
+<span class="n">Calificacion</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">interfaz</span><span class="o">.</span><span class="n">Deslizador</span><span class="p">()</span>
+<span class="n">Calificacion</span><span class="o">.</span><span class="n">conectar</span><span class="p">(</span><span class="n">cuando_cambia_Calificacion</span><span class="p">)</span>
+<span class="n">Calificacion</span><span class="o">.</span><span class="n">x</span><span class="p">,</span><span class="n">Calificacion</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">posicionR</span><span class="p">,</span><span class="n">posicionV</span><span class="o">*</span><span class="mi">5</span>
+
+<span class="sd">&quot;&quot;&quot;Ejecutamos el Programa&quot;&quot;&quot;</span>
+<span class="n">pilas</span><span class="o">.</span><span class="n">ejecutar</span><span class="p">()</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="multilinea-py">
+<h3>Multilinea.py<a class="headerlink" href="#multilinea-py" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Este codigo es adicional, ya que Pilas no cuenta con la función Multilinea para una entrada de texto, por lo tanto el código fuente básico provisto por Pilas, ha sido editado por el equipo de &#8220;Opinia&#8221; y su código es el siguiente.</p>
+</div>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114</pre></div></td><td class="code"><div class="highlight"><pre><span class="c"># -*- encoding: utf-8 -*-</span>
+
+<span class="kn">import</span> <span class="nn">pilas</span>
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">from</span> <span class="nn">pilas.interfaz.base_interfaz</span> <span class="kn">import</span> <span class="n">BaseInterfaz</span>
+
+<span class="k">class</span> <span class="nc">EntradaDeTexto</span><span class="p">(</span><span class="n">BaseInterfaz</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">texto_inicial</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">ancho</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span> <span class="n">limite_de_caracteres</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">icono</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">acepta_multilinea</span><span class="o">=</span><span class="bp">True</span><span class="p">):</span>
+        <span class="n">BaseInterfaz</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">texto</span> <span class="o">=</span> <span class="n">texto_inicial</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cursor</span> <span class="o">=</span> <span class="s">&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_cargar_lienzo</span><span class="p">(</span><span class="n">ancho</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">acepta_multilinea</span> <span class="o">=</span> <span class="n">acepta_multilinea</span>
+
+        <span class="k">if</span> <span class="n">icono</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">icono</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">imagenes</span><span class="o">.</span><span class="n">cargar</span><span class="p">(</span><span class="n">icono</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">icono</span> <span class="o">=</span> <span class="bp">None</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">imagen_caja</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">imagenes</span><span class="o">.</span><span class="n">cargar</span><span class="p">(</span><span class="s">&quot;.Data/mensaje.png&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">centro</span> <span class="o">=</span> <span class="p">(</span><span class="s">&quot;centro&quot;</span><span class="p">,</span> <span class="s">&quot;centro&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_actualizar_imagen</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">limite_de_caracteres</span> <span class="o">=</span> <span class="n">limite_de_caracteres</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cualquier_caracter</span><span class="p">()</span>
+
+        <span class="n">pilas</span><span class="o">.</span><span class="n">eventos</span><span class="o">.</span><span class="n">pulsa_tecla</span><span class="o">.</span><span class="n">conectar</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cuando_pulsa_una_tecla</span><span class="p">)</span>
+        <span class="n">pilas</span><span class="o">.</span><span class="n">mundo</span><span class="o">.</span><span class="n">agregar_tarea_siempre</span><span class="p">(</span><span class="mf">0.40</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_actualizar_cursor</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">fijo</span> <span class="o">=</span> <span class="bp">True</span>
+
+    <span class="k">def</span> <span class="nf">_actualizar_cursor</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tiene_el_foco</span><span class="p">):</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">cursor</span> <span class="o">==</span> <span class="s">&quot;&quot;</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">cursor</span> <span class="o">=</span> <span class="s">&quot;_&quot;</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">cursor</span> <span class="o">=</span> <span class="s">&quot;&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">cursor</span> <span class="o">=</span> <span class="s">&quot;&quot;</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_actualizar_imagen</span><span class="p">()</span>
+        <span class="k">return</span> <span class="bp">True</span>
+
+    <span class="k">def</span> <span class="nf">cualquier_caracter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">caracteres_permitidos</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s">&quot;.*&quot;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">solo_numeros</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">caracteres_permitidos</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s">&quot;\d+&quot;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">solo_letras</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">caracteres_permitidos</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s">&quot;[a-z]+&quot;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">cuando_pulsa_una_tecla</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evento</span><span class="p">):</span>
+        <span class="n">leermaximo</span><span class="o">=</span><span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/mensaje.txt&quot;</span><span class="p">,</span><span class="s">&quot;r&quot;</span><span class="p">)</span>
+        <span class="n">numeromaximo</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">leermaximo</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
+        <span class="n">leermaximo</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+        <span class="k">if</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tiene_el_foco</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">activo</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">evento</span><span class="o">.</span><span class="n">codigo</span> <span class="o">==</span> <span class="s">&#39;</span><span class="se">\x08</span><span class="s">&#39;</span> <span class="ow">or</span> <span class="n">evento</span><span class="o">.</span><span class="n">texto</span> <span class="o">==</span> <span class="s">&#39;</span><span class="se">\x08</span><span class="s">&#39;</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">numeromaximo</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                    <span class="k">print</span> <span class="s">&quot;0&quot;</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">numeromaximo</span> <span class="o">=</span> <span class="n">numeromaximo</span><span class="o">+</span><span class="mi">1</span>
+                    <span class="n">escribirmaximo</span><span class="o">=</span><span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/mensaje.txt&quot;</span><span class="p">,</span><span class="s">&quot;w&quot;</span><span class="p">)</span>
+                    <span class="n">escribirmaximo</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">numeromaximo</span><span class="p">))</span>
+                    <span class="n">escribirmaximo</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+                    <span class="k">print</span> <span class="s">&quot;1&quot;</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">texto</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">texto</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+            <span class="k">elif</span> <span class="nb">str</span><span class="p">(</span><span class="n">evento</span><span class="o">.</span><span class="n">texto</span><span class="p">)</span> <span class="o">==</span> <span class="s">&#39;</span><span class="se">\r</span><span class="s">&#39;</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">acepta_multilinea</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">texto</span> <span class="o">+=</span> <span class="s">&#39;</span><span class="se">\n</span><span class="s">&#39;</span>
+                    <span class="n">numeromaximo</span> <span class="o">=</span> <span class="mi">0</span>
+                    <span class="n">escribirmaximo</span><span class="o">=</span><span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/mensaje.txt&quot;</span><span class="p">,</span><span class="s">&quot;w&quot;</span><span class="p">)</span>
+                    <span class="n">escribirmaximo</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">numeromaximo</span><span class="p">))</span>
+                    <span class="n">escribirmaximo</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+                    <span class="k">print</span> <span class="s">&quot;2&quot;</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">texto</span><span class="p">)</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">limite_de_caracteres</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="n">numeromaximo</span><span class="o">&gt;=</span><span class="mi">25</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">texto</span> <span class="o">+=</span> <span class="s">&#39;</span><span class="se">\n</span><span class="s">&#39;</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">texto</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">texto</span> <span class="o">+</span> <span class="n">evento</span><span class="o">.</span><span class="n">texto</span>
+                        <span class="n">numeromaximo</span><span class="o">=</span><span class="mi">0</span>
+                        <span class="n">escribirmaximo</span><span class="o">=</span><span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/mensaje.txt&quot;</span><span class="p">,</span><span class="s">&quot;w&quot;</span><span class="p">)</span>
+                        <span class="n">escribirmaximo</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">numeromaximo</span><span class="p">))</span>
+                        <span class="n">escribirmaximo</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+                        <span class="k">print</span> <span class="s">&quot;3&quot;</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">texto</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">texto</span> <span class="o">+</span> <span class="n">evento</span><span class="o">.</span><span class="n">texto</span>
+                        <span class="n">numeromaximo</span><span class="o">=</span><span class="n">numeromaximo</span><span class="o">+</span><span class="mi">1</span>
+                        <span class="n">escribirmaximo</span><span class="o">=</span><span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/mensaje.txt&quot;</span><span class="p">,</span><span class="s">&quot;w&quot;</span><span class="p">)</span>
+                        <span class="n">escribirmaximo</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">numeromaximo</span><span class="p">))</span>
+                        <span class="n">escribirmaximo</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+                        <span class="k">print</span> <span class="s">&quot;4&quot;</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_actualizar_imagen</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">_cargar_lienzo</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ancho</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">imagen</span> <span class="o">=</span> <span class="n">pilas</span><span class="o">.</span><span class="n">imagenes</span><span class="o">.</span><span class="n">cargar_superficie</span><span class="p">(</span><span class="n">ancho</span><span class="p">,</span> <span class="mi">150</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_actualizar_imagen</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">ancho</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">imagen_caja</span><span class="o">.</span><span class="n">ancho</span><span class="p">()</span>
+        <span class="n">alto</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">imagen_caja</span><span class="o">.</span><span class="n">alto</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">imagen</span><span class="o">.</span><span class="n">pintar_parte_de_imagen</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">imagen_caja</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="n">ancho</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">icono</span><span class="p">:</span>
+            <span class="n">dx</span> <span class="o">=</span> <span class="mi">20</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">imagen</span><span class="o">.</span><span class="n">pintar_parte_de_imagen</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">icono</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="n">ancho</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">dx</span> <span class="o">=</span> <span class="mi">0</span>
+
+        <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">imagen</span><span class="o">.</span><span class="n">ancho</span><span class="p">()</span> <span class="o">-</span> <span class="mi">40</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">imagen</span><span class="o">.</span><span class="n">pintar_parte_de_imagen</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">imagen_caja</span><span class="p">,</span> <span class="n">ancho</span> <span class="o">-</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="n">alto</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">imagen</span><span class="o">.</span><span class="n">texto</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">texto</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">cursor</span><span class="p">,</span> <span class="mi">15</span> <span class="o">+</span> <span class="n">dx</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">inicializar</span><span class="p">():</span>
+    <span class="n">inicializar</span><span class="o">=</span><span class="nb">open</span><span class="p">(</span><span class="s">&quot;.Data/mensaje.txt&quot;</span><span class="p">,</span><span class="s">&quot;w&quot;</span><span class="p">)</span>
+    <span class="n">inicializar</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
+    <span class="n">inicializar</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Opinia</a><ul>
+<li><a class="reference internal" href="#que-es-opinia">¿Qué es Opinia?</a></li>
+<li><a class="reference internal" href="#implementacion">Implementación</a></li>
+<li><a class="reference internal" href="#limitaciones">Limitaciones</a></li>
+<li><a class="reference internal" href="#requisitos">Requisitos</a></li>
+<li><a class="reference internal" href="#modo-de-uso">Modo de Uso</a></li>
+<li><a class="reference internal" href="#acerca-de">Acerca De</a></li>
+<li><a class="reference internal" href="#algunas-imagenes">Algunas Imágenes</a></li>
+<li><a class="reference internal" href="#descarga">Descarga</a></li>
+<li><a class="reference internal" href="#codigo-python">Código Python</a><ul>
+<li><a class="reference internal" href="#opinia-py">Opinia.py</a></li>
+<li><a class="reference internal" href="#multilinea-py">Multilinea.py</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="index.html"
+                        title="Capítulo anterior">Bienvenido a la Documentacion de Opinia!</a></p>
+  <h3>Esta página</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/Opinia.txt"
+           rel="nofollow">Enseñar el código</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="index.html" title="Bienvenido a la Documentacion de Opinia!"
+             >anterior</a> |</li>
+        <li><a href="index.html">Opinia 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Augusto Jair y Pedro Ludueña.
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

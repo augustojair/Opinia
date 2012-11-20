@@ -1,0 +1,7 @@
+Tutorial de Instalacion:
+
+1) Descargue el Archivo "Opinia.zip"
+2) Descomprima el archivo "Opinia.zip"
+3) Ejecute el archivo "Opinia.py"
+
+Para leer la documentacion del software ingrese en Opinia.readthedocs.org
