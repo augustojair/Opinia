@@ -47,8 +47,7 @@ Acerca De
 
 El software ha sido elaborado por dos alumnos del ITS Villada de 4º año C, de la especialidad Informática. Año 2012.
 Para más información puede contactarse con Augusto Jair augustojair_96@hotmail.com o con Pedro Ludueña pedro_ignacio_luduena@hotmail.com
-<br>El programa se encuentra con licencia GPL-3 de Creative Commons.<br>
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.es"><img alt="Licencia Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Opinia</span> por <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/augustojair/Opinia.git" property="cc:attributionName" rel="cc:attributionURL">Augusto Jair & Pedro Luduena</a> se encuentra bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.es">Licencia Creative Commons Atribución-CompartirIgual 3.0 Unported</a>.<br />Basada en una obra en <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/augustojair/Opinia.git" rel="dct:source">https://github.com/augustojair/Opinia.git</a>.
+El programa se encuentra con licencia GPL-3 de Creative Commons.
 
 Algunas Imágenes
 ----------------
